@@ -3,3 +3,5 @@ playwright==1.52.0
 plyer==2.1.0
 pyee==13.0.0
 typing_extensions==4.13.2
+playwright==1.43.0
+

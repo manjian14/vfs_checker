@@ -26,6 +26,7 @@ async def check_appointments(destination_country_code: str):
         except:
             print("✅ Appointment might be available!")
             os.system(f'notify-send "VFS Slot Available!" "Slot detected for {destination_country_code.upper()}!"')
+            raise
 
         await browser.close()
 
